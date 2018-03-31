@@ -1,0 +1,25 @@
+include ../_components/partents/menu
+
+doctype html
+html
+  head
+    title title
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no")
+
+    block head_end
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="fonts/fonts.css")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet")
+    link(rel="stylesheet", href="style.css")
+    
+  body
+    #wrapper
+      include ../_partials/header
+      block content
+      include ../_partials/footer
+    //#wrapper  
+    block body_end
+    script(src="libs/jquery/jquery.min.js", type="text/javascript")
+    script(src="js/bundle.js", type="text/javascript")
+      

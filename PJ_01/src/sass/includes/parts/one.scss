@@ -1,0 +1,45 @@
+#header{
+	font-family: 'ProximaNova';
+	height: 890px;
+	background-image: url("images/img-slider/bg_header.png");
+	color: #FFF;
+	
+	a.logo{
+		line-height: 60px;
+		font-size: 13px;
+		text-decoration: none;
+		display: block;
+		position: relative;
+		img
+		{
+			vertical-align:middle;
+		}
+		span
+		{
+			margin-left: 5px;
+			position: absolute;
+			top: 6px;
+		}
+	}
+	p
+	{
+		font-size: 17px;
+		width: 50%;
+	}
+	p.tit
+	{
+		font-size: 48px;
+	}
+	a.button
+	{
+		padding: 23px 38px;
+		border: 1px solid #fff;
+		margin-top: 50px;
+		position: absolute;
+	}
+	a.button:hover
+	{
+		color: #000;
+		background: #FFF;
+	}
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("Merriweather-Regular.eot");
+  src: url("Merriweather-Regular.eot?#iefix") format("embedded-opentype"), url("Merriweather-Regular.woff") format("woff"), url("Merriweather-Regular.ttf") format("truetype"), url("Merriweather-Regular.svg#Merriweather") format("svg");
+  font-style: normal;
+  font-weight: "400"; }
+
+@font-face {
+  font-family: "proximanova";
+  src: url("proxima-nova-regular.eot");
+  src: url("proxima-nova-regular.eot?#iefix") format("embedded-opentype"), url("proxima-nova-regular.woff") format("woff"), url("proxima-nova-regular.ttf") format("truetype"), url("proxima-nova-regular.svg#proximanova") format("svg");
+  font-style: normal;
+  font-weight: "400"; }
