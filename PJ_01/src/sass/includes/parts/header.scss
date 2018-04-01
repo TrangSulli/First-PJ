@@ -1,0 +1,32 @@
+//#ffffff99 màu chữ nav
+#header{
+	background-color: #aa944f;
+	.container{
+		.navbar{
+			width: 100%;
+			li{
+				padding:0px 22px;
+				a{
+					text-decoration: none;
+					color:#ffffff99;
+					font-family: 'Open Sans', sans-serif;
+					font-size: 14px;
+					line-height: 120px;
+					font-weight: 600;
+				}
+			}
+			&__title{
+				img{
+					width: 157px;
+					margin-top:25px;
+				}
+			}
+			&__left{
+				margin-left:185px;
+				strong{
+					color:#fff;
+				}
+			}
+		}
+	}
+}
